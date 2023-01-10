@@ -1,13 +1,9 @@
 public class Euklid {
     public static void main(String[] args) {
 
-        // Deklararion
-        int a;
-        int b;
-
-        // Initialisierung
-        a = 10;
-        b = 4;
+        // Deklararion und Initialisierung
+        int a = 12;
+        int b = 9;
 
         while ( a != b ) {
             if ( a > b ) a = a - b;
